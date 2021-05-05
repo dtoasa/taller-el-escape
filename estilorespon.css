@@ -40,21 +40,6 @@
 }
 
 
-.discord figure{
-    
-    width: 150px;
-    height: 150px;
-    background: url(img/logo.png);
-    border-radius: 100px;
-    float:right;
-    margin-top: 10px;
-    margin-right: 40%;
-    box-shadow: 0 0 80px greenyellow; /* x y PX(ancho) color*/  
-    
-    
-}
-
-
 /*Boton Watsapp*/
 .float{
 	position:fixed;
@@ -108,8 +93,6 @@
 
 
 .logo{
-         width: 200px;
-         height: 200px;
          border-radius: 50%;  
          display: block;
          margin: 0 auto;
@@ -118,7 +101,7 @@
          
                 
 
-@media only screen and (max-width:620px) {
+@media only screen and (max-width:1300px) {
   /* For mobile phones: */
   .menu, .main, .right {
     width:100%;
@@ -126,14 +109,14 @@
   
   /*SLIDERSHOW*/
 .container2{
-  height: 120px; /* It can be anything you need */
+  height: 300px; /* It can be anything you need */
   position: relative;
   width: 100%;
 }
 
 .logo{
-         width: 70px;
-         height: 70px;
+         width: 150px;
+         height: 150px;
          border-radius: 50%;  
          display: block;
          margin: 0 auto;
@@ -145,7 +128,7 @@
 header figure{
     width: 100px;
     height: 100px;
-    background: url(img/logo.jpg);
+    background: url(img/logo.png);
     border-radius: 100px;
     float:right;
     margin-top: 10px;
